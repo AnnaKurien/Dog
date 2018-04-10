@@ -2,16 +2,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <parameter name="baseUrl" value="http://demo.tanmaysarkar.com/sample_01.html"/>
-  <test thread-count="5" name="ChromeTest2(failed)">
-    <parameter name="browser" value="ayyo"/>
+  <test thread-count="5" name="FireFoxTest0(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.tanmaysarkar.demo.TestTanmay">
         <methods>
           <include name="afterClass"/>
+          <include name="wrapUpTest"/>
           <include name="f"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- com.tanmaysarkar.demo.TestTanmay -->
     </classes>
-  </test> <!-- ChromeTest2(failed) -->
+  </test> <!-- FireFoxTest0(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

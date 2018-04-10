@@ -1,5 +1,11 @@
 package com.tanmaysarkar.demo;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -47,9 +53,32 @@ public class BasePage {
 		synchronized (_wD) {
 		_wD.wait(2000);
 		}
+	}
 		
+	public String captureScreenShot()
+	{
+		File src= ((TakesScreenshot) _wD).getScreenshotAs(OutputType.FILE);
+		String destinationFilePath = "C:/selenium/"+System.currentTimeMillis()+".png";
+		 
+		try {
+		  // now copy the  screenshot to desired location using copyFile method
+		 
+		 FileUtils.copyFile(src, new File(destinationFilePath));
+		 
+		       }
+		 
+		catch (IOException e)
+		 
+		{
+		 
+		System.out.println(e.getMessage());
+		 
+		    }
+		 return destinationFilePath;
 		
 	}
+		
+	
 	public void closeBrowser()
 	{
 		_wD.quit();

@@ -8,33 +8,12 @@
 
   <test name="FireFoxTest0">
   		<!-- Test Level Parameters -->
-    	<parameter name="browser" value="firefox" />
-	    <classes>
-	      <class name="com.tanmaysarkar.demo.TestTanmay"/>
-	    </classes>
-  </test>
-  
-  <test name="ChromeTest1">
-	  	<!-- Test Level Parameters -->
     	<parameter name="browser" value="chrome" />
 	    <classes>
 	      <class name="com.tanmaysarkar.demo.TestTanmay"/>
 	    </classes>
   </test>
-    <test name="FireFoxTest1">
-  		<!-- Test Level Parameters -->
-    	<parameter name="browser" value="firefox" />
-	    <classes>
-	      <class name="com.tanmaysarkar.demo.TestTanmay"/>
-	    </classes>
-  </test>
   
-  <test name="ChromeTest2">
-	  	<!-- Test Level Parameters -->
-    	<parameter name="browser" value="ayyo" />
-	    <classes>
-	      <class name="com.tanmaysarkar.demo.TestTanmay"/>
-	    </classes>
-  </test>
+  
     
 </suite> <!-- Default suite -->

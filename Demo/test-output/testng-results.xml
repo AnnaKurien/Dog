@@ -1,41 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45029" started-at="2018-04-09T20:02:34Z" finished-at="2018-04-09T20:03:19Z">
+  <suite name="Default suite" duration-ms="14451" started-at="2018-04-10T19:51:14Z" finished-at="2018-04-10T19:51:28Z">
     <groups>
     </groups>
-    <test name="FireFoxTest0" duration-ms="16621" started-at="2018-04-09T20:02:34Z" finished-at="2018-04-09T20:02:51Z">
+    <test name="FireFoxTest0" duration-ms="14451" started-at="2018-04-10T19:51:14Z" finished-at="2018-04-10T19:51:28Z">
       <class name="com.tanmaysarkar.demo.TestTanmay">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@a38d7a3]" name="beforeClass" is-config="true" duration-ms="12445" started-at="2018-04-09T20:02:34Z" finished-at="2018-04-09T20:02:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://demo.tanmaysarkar.com/sample_01.html]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@a38d7a3]" name="f" duration-ms="1215" started-at="2018-04-09T20:02:46Z" finished-at="2018-04-09T20:02:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@a38d7a3]" name="afterClass" is-config="true" duration-ms="2930" started-at="2018-04-09T20:02:48Z" finished-at="2018-04-09T20:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.tanmaysarkar.demo.TestTanmay -->
-    </test> <!-- FireFoxTest0 -->
-    <test name="ChromeTest1" duration-ms="10538" started-at="2018-04-09T20:02:51Z" finished-at="2018-04-09T20:03:01Z">
-      <class name="com.tanmaysarkar.demo.TestTanmay">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@5891e32e]" name="beforeClass" is-config="true" duration-ms="8586" started-at="2018-04-09T20:02:51Z" finished-at="2018-04-09T20:02:59Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6]" name="beforeClass" is-config="true" duration-ms="8550" started-at="2018-04-10T19:51:14Z" finished-at="2018-04-10T19:51:22Z">
           <params>
             <param index="0">
               <value>
@@ -51,71 +23,171 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@5891e32e]" name="f" duration-ms="1233" started-at="2018-04-09T20:02:59Z" finished-at="2018-04-09T20:03:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@5891e32e]" name="afterClass" is-config="true" duration-ms="715" started-at="2018-04-09T20:03:00Z" finished-at="2018-04-09T20:03:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.tanmaysarkar.demo.TestTanmay -->
-    </test> <!-- ChromeTest1 -->
-    <test name="FireFoxTest1" duration-ms="13906" started-at="2018-04-09T20:03:01Z" finished-at="2018-04-09T20:03:15Z">
-      <class name="com.tanmaysarkar.demo.TestTanmay">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@4e718207]" name="beforeClass" is-config="true" duration-ms="11020" started-at="2018-04-09T20:03:01Z" finished-at="2018-04-09T20:03:12Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6]" name="f" duration-ms="696" started-at="2018-04-10T19:51:22Z" data-provider="localDP" finished-at="2018-04-10T19:51:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[Aditya]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[http://demo.tanmaysarkar.com/sample_01.html]]>
+                <![CDATA[J]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Parker]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@4e718207]" name="f" duration-ms="794" started-at="2018-04-09T20:03:12Z" finished-at="2018-04-09T20:03:13Z">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@4e718207]" name="afterClass" is-config="true" duration-ms="2089" started-at="2018-04-09T20:03:13Z" finished-at="2018-04-09T20:03:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.tanmaysarkar.demo.TestTanmay -->
-    </test> <!-- FireFoxTest1 -->
-    <test name="ChromeTest2" duration-ms="3839" started-at="2018-04-09T20:03:15Z" finished-at="2018-04-09T20:03:19Z">
-      <class name="com.tanmaysarkar.demo.TestTanmay">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@c81cdd1]" name="beforeClass" is-config="true" duration-ms="3500" started-at="2018-04-09T20:03:15Z" finished-at="2018-04-09T20:03:19Z">
+        <test-method status="PASS" signature="wrapUpTest(org.testng.ITestResult)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6]" name="wrapUpTest" is-config="true" duration-ms="608" started-at="2018-04-10T19:51:23Z" finished-at="2018-04-10T19:51:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ayyo]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://demo.tanmaysarkar.com/sample_01.html]]>
+                <![CDATA[[TestResult name=f status=SUCCESS method=TestTanmay.f(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@c81cdd1]" name="f" duration-ms="337" started-at="2018-04-09T20:03:19Z" finished-at="2018-04-09T20:03:19Z">
+        </test-method> <!-- wrapUpTest -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6]" name="f" duration-ms="587" started-at="2018-04-10T19:51:23Z" data-provider="localDP" finished-at="2018-04-10T19:51:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Parker]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@c81cdd1]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-04-09T20:03:19Z" finished-at="2018-04-09T20:03:19Z">
+        <test-method status="PASS" signature="wrapUpTest(org.testng.ITestResult)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6]" name="wrapUpTest" is-config="true" duration-ms="352" started-at="2018-04-10T19:51:24Z" finished-at="2018-04-10T19:51:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=TestTanmay.f(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapUpTest -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6]" name="f" duration-ms="654" started-at="2018-04-10T19:51:24Z" data-provider="localDP" finished-at="2018-04-10T19:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[J]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Parker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="wrapUpTest(org.testng.ITestResult)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6]" name="wrapUpTest" is-config="true" duration-ms="310" started-at="2018-04-10T19:51:25Z" finished-at="2018-04-10T19:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=TestTanmay.f(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapUpTest -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6]" name="f" duration-ms="597" started-at="2018-04-10T19:51:25Z" data-provider="localDP" finished-at="2018-04-10T19:51:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Parker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="wrapUpTest(org.testng.ITestResult)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6]" name="wrapUpTest" is-config="true" duration-ms="404" started-at="2018-04-10T19:51:26Z" finished-at="2018-04-10T19:51:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=TestTanmay.f(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapUpTest -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6]" name="f" duration-ms="585" started-at="2018-04-10T19:51:26Z" data-provider="localDP" finished-at="2018-04-10T19:51:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[W]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Parker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="wrapUpTest(org.testng.ITestResult)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6]" name="wrapUpTest" is-config="true" duration-ms="333" started-at="2018-04-10T19:51:27Z" finished-at="2018-04-10T19:51:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=TestTanmay.f(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapUpTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@3aeaafa6]" name="afterClass" is-config="true" duration-ms="729" started-at="2018-04-10T19:51:27Z" finished-at="2018-04-10T19:51:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.tanmaysarkar.demo.TestTanmay -->
-    </test> <!-- ChromeTest2 -->
+    </test> <!-- FireFoxTest0 -->
   </suite> <!-- Default suite -->
 </testng-results>
