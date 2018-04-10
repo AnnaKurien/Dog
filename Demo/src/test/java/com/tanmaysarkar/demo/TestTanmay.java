@@ -33,6 +33,7 @@ public class TestTanmay {
   @Test
   public void f() {
 	  testThis = PageFactory.initElements(myBP._wD, Sample1BL.class);
+	  myBP.captureScreenShot();
 	  testThis.fillupForm("Aditya", "Joseph", "A");
 	  
   }
