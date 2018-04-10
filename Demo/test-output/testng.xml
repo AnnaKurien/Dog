@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+
+    
+    
+ <parameter name="baseUrl" value="http://demo.tanmaysarkar.com/sample_01.html" />
+
+  <test name="FireFoxTest0">
+  		<!-- Test Level Parameters -->
+    	<parameter name="browser" value="firefox" />
+	    <classes>
+	      <class name="com.tanmaysarkar.demo.TestTanmay"/>
+	    </classes>
+  </test>
+  
+  <test name="ChromeTest1">
+	  	<!-- Test Level Parameters -->
+    	<parameter name="browser" value="chrome" />
+	    <classes>
+	      <class name="com.tanmaysarkar.demo.TestTanmay"/>
+	    </classes>
+  </test>
+    <test name="FireFoxTest1">
+  		<!-- Test Level Parameters -->
+    	<parameter name="browser" value="firefox" />
+	    <classes>
+	      <class name="com.tanmaysarkar.demo.TestTanmay"/>
+	    </classes>
+  </test>
+  
+  <test name="ChromeTest2">
+	  	<!-- Test Level Parameters -->
+    	<parameter name="browser" value="ayyo" />
+	    <classes>
+	      <class name="com.tanmaysarkar.demo.TestTanmay"/>
+	    </classes>
+  </test>
+    
+</suite> <!-- Default suite -->

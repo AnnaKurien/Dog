@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45029" started-at="2018-04-09T20:02:34Z" finished-at="2018-04-09T20:03:19Z">
+    <groups>
+    </groups>
+    <test name="FireFoxTest0" duration-ms="16621" started-at="2018-04-09T20:02:34Z" finished-at="2018-04-09T20:02:51Z">
+      <class name="com.tanmaysarkar.demo.TestTanmay">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@a38d7a3]" name="beforeClass" is-config="true" duration-ms="12445" started-at="2018-04-09T20:02:34Z" finished-at="2018-04-09T20:02:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://demo.tanmaysarkar.com/sample_01.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@a38d7a3]" name="f" duration-ms="1215" started-at="2018-04-09T20:02:46Z" finished-at="2018-04-09T20:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@a38d7a3]" name="afterClass" is-config="true" duration-ms="2930" started-at="2018-04-09T20:02:48Z" finished-at="2018-04-09T20:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.tanmaysarkar.demo.TestTanmay -->
+    </test> <!-- FireFoxTest0 -->
+    <test name="ChromeTest1" duration-ms="10538" started-at="2018-04-09T20:02:51Z" finished-at="2018-04-09T20:03:01Z">
+      <class name="com.tanmaysarkar.demo.TestTanmay">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@5891e32e]" name="beforeClass" is-config="true" duration-ms="8586" started-at="2018-04-09T20:02:51Z" finished-at="2018-04-09T20:02:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://demo.tanmaysarkar.com/sample_01.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@5891e32e]" name="f" duration-ms="1233" started-at="2018-04-09T20:02:59Z" finished-at="2018-04-09T20:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@5891e32e]" name="afterClass" is-config="true" duration-ms="715" started-at="2018-04-09T20:03:00Z" finished-at="2018-04-09T20:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.tanmaysarkar.demo.TestTanmay -->
+    </test> <!-- ChromeTest1 -->
+    <test name="FireFoxTest1" duration-ms="13906" started-at="2018-04-09T20:03:01Z" finished-at="2018-04-09T20:03:15Z">
+      <class name="com.tanmaysarkar.demo.TestTanmay">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@4e718207]" name="beforeClass" is-config="true" duration-ms="11020" started-at="2018-04-09T20:03:01Z" finished-at="2018-04-09T20:03:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://demo.tanmaysarkar.com/sample_01.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@4e718207]" name="f" duration-ms="794" started-at="2018-04-09T20:03:12Z" finished-at="2018-04-09T20:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@4e718207]" name="afterClass" is-config="true" duration-ms="2089" started-at="2018-04-09T20:03:13Z" finished-at="2018-04-09T20:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.tanmaysarkar.demo.TestTanmay -->
+    </test> <!-- FireFoxTest1 -->
+    <test name="ChromeTest2" duration-ms="3839" started-at="2018-04-09T20:03:15Z" finished-at="2018-04-09T20:03:19Z">
+      <class name="com.tanmaysarkar.demo.TestTanmay">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@c81cdd1]" name="beforeClass" is-config="true" duration-ms="3500" started-at="2018-04-09T20:03:15Z" finished-at="2018-04-09T20:03:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ayyo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://demo.tanmaysarkar.com/sample_01.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@c81cdd1]" name="f" duration-ms="337" started-at="2018-04-09T20:03:19Z" finished-at="2018-04-09T20:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tanmaysarkar.demo.TestTanmay@c81cdd1]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-04-09T20:03:19Z" finished-at="2018-04-09T20:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.tanmaysarkar.demo.TestTanmay -->
+    </test> <!-- ChromeTest2 -->
+  </suite> <!-- Default suite -->
+</testng-results>
